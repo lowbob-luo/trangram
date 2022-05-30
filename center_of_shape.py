@@ -39,7 +39,6 @@ for i in range(np.shape(HSV_mat)[0]):#np.shape(HSV_mat)[0]输出x维度大小
 			print("cx:"+str(cX)+","+"cy:"+str(cY))
 			cv.putText(img, "center", (cX - 20, cY - 20),cv.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 2)
 	print("--------%d---------\n"%(i+1))#标号
-	cv.getOrientation
 
 
 cv.namedWindow('img',cv.WINDOW_NORMAL)
